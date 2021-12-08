@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    /* width: 100%; */
+    /* border: dotted #8ddbb7 10px; */
+    padding: 5px;
+}
+
+body {
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li {
+    width: 175px 
+    height: 400px;
+    display:grid;
+    /* grid-template-columns: 50% 50%; */
+    /* grid-template-rows: 50% 50%; */
+    grid-template-rows: auto 1fr auto;
+    place-items: center;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+/* li:hover {
+    box
+} */

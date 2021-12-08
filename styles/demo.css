@@ -49,7 +49,7 @@ li {
   width: 175px;
   height: 145px;
   display: grid;
-  grid-template-rows: autos 1fr auto;
+  grid-template-rows: auto 1fr auto;
   place-items: center;
   background: #FFFFF4;
   border: 3px solid var(--accent-dark);

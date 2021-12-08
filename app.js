@@ -15,3 +15,8 @@ ostritchHorn.addEventListener('click', () => {
   audio.src = 'assets/sounds/ostritch horn.wav';
   audio.play();
 });
+const pigeonHorn = document.getElementById('pigeon-horn');
+pigeonHorn.addEventListener('click', () => {
+  audio.src = 'assets/sounds/pigeon horn.mp3';
+  audio.play();
+});
