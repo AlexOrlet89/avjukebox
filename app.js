@@ -1,3 +1,6 @@
+import { bird } from './data.js';
+
+console.log(bird)
 const audio = document.getElementById('audio');
 
 const sparrowHorn = document.getElementById('sparrow-horn');
@@ -20,3 +23,5 @@ pigeonHorn.addEventListener('click', () => {
   audio.src = 'assets/sounds/pigeon horn.mp3';
   audio.play();
 });
+
+
