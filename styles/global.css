@@ -21,6 +21,7 @@ body {
 }
 header {
     padding: var(--padding);
+    text-align: center;
 }
 
 h1 {
