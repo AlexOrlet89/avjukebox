@@ -3,7 +3,7 @@
     /* width: 100%; */
     /* border: dotted #8ddbb7 10px; */
     padding: 5px;
-    
+    font-family: 'Kings', cursive;
 }
 
 :root {
@@ -14,7 +14,6 @@
 }
 
 body {
-    background-image:url(../assets/avatars/big bird.jpg);
     object-position: center;
     background: var(--primary-background);
     display: grid;
